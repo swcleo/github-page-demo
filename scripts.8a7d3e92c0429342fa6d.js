@@ -1,0 +1,1 @@
+var __$performace__={data:{},time(a){this.data[a]=window.performance.now()},timeEnd(a){if(this.data[a])return this.data[a]=window.performance.now()-this.data[a],this.data[a]}};__$performace__.time("main");
